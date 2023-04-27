@@ -1,0 +1,526 @@
+.whole{
+    height: 1024px;
+    width: 1440px;
+    background-image:linear-gradient(to right,#B9DDE9,#E5E5E5);
+}
+
+.input{
+    position: absolute;
+    height: 324px;
+    width: 660px;
+    left: 60px;
+    top: 294px;
+    border-radius: 10px;
+    background-color:white;
+
+}
+
+.TheWeatherApp
+{
+    position: absolute;
+    height: 324px;
+    width: 100%;
+    top: 48px;
+
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-size: 36px;
+            font-weight: 700;
+            line-height: 54px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #4B77BE;
+}
+.spinner {
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    top: 196px;
+    left:300px;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: #333;
+    animation: spinner 0.6s linear infinite;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.temp
+{
+    position: absolute;
+    top:126px;
+    width: 100%;
+    font-family: "Poppins";
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #3F3D56;
+}
+.city
+{
+    position: absolute;
+    top: 222px;
+    height: 54px;
+        width: 100%;
+        bottom: 48px;
+        
+        border-radius: nullpx;
+        font-family: "Poppins";
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 54px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #4B77BE;
+}
+.inputbox{
+    position: absolute;
+    height: 96px;
+        width: 660px;
+        left: 60px;
+        top: 634px;
+        border-radius: 10px;
+        background-color: white;
+}
+.entercity
+{
+    position: absolute;
+    height: 64px;
+        width: 408px;
+        left: 16px;
+        top: 16px;
+        border-radius: 5px;
+        border: 1px solid black;
+}
+.edittext{
+    position: absolute;
+        height: 64px;
+        width: 408px;
+        left: 16px;
+        top: 16px;
+        border-radius: 5px;
+
+}
+
+.text{
+    position: absolute;
+    height: 64px;
+        width: 408px;
+        left: 16px;
+        top: 22px;
+        border-radius: 5px;
+        font-family: Poppins;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+}
+.button{
+    position: absolute;
+    height: 64px;
+        width: 204px;
+        right: 16px;
+        top: 16px;
+        border-radius: 5px;
+        background: #4B77BE;
+        color: white;
+}
+
+.text1
+{
+    position: absolute;
+       left: 33.3px;
+        top: 0px;
+        height: 32px;
+        width: 137.34652709960938px;
+        
+        border-radius: nullpx;
+        font-family:"Poppins";
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0em;
+            text-align: left;
+}
+.button:active,
+.text1:active {
+    cursor: pointer;
+}
+.illustration
+{
+   position: relative;
+height: 406.4400634765625px;
+    width: 549.6802978515625px;
+    left: 830px;
+    top: 309px;
+    border-radius: 0px;
+    border: 2px solid black;
+}
+.mobile1
+{
+    position: absolute;
+    height: 344.49383544921875px;
+        width: 171.77369689941406px;
+        left: 956.9616088867188px;
+        top: 309px;
+        border-radius: 0px;
+        z-index: 2;
+}
+.innermobile
+{
+    position: absolute;
+    height: 328.87811279296875px;
+        width: 155.21153259277344px;
+        left: 965.2427062988281px;
+        top: 316.8078918457031px;
+        border-radius: 0px;
+        z-index:3
+}
+
+.msg
+{
+    position: absolute;
+        height: 51.8792839050293px;
+            width: 220.6403045654297px;
+            left: 830px;
+            top: 531.4513702392578px;
+            border-radius: 0px;
+            z-index: 3;
+    
+}
+.line1
+{
+    position: absolute;
+        height: 2.6268012523651123px;
+            width: 162.20481872558594px;
+            left: 856.9139709472656px;
+            top: 543.9286499023438px;
+            border-radius: 0px;
+    
+        background: #FFFFFF;
+                    z-index: 3;
+}
+.line2
+{
+    position: absolute;
+height: 2.626783609390259px;
+    width: 162.20481872558594px;
+    left: 856.9139709472656px;
+    top: 553.7791748046875px;
+    border-radius: 0px;
+           background: #FFFFFF;
+                    z-index: 3;
+}
+.circle
+{
+    position: absolute;
+    height: 132.26785278320312px;
+        width: 132.26785278320312px;
+        left: 976.7468872070312px;
+        top: 351.1971435546875px;
+        border-radius: 50%;
+        border:1px solid  #3F3D56;
+                    z-index: 3;
+}
+.circle1
+{
+        position: absolute;
+        height: 45.54045486450195px;
+            width: 45.540462493896484px;
+            left: 1033.220703125px;
+            top: 356.61048889160156px;
+            border-radius: 0px;
+      background: #FF6582;
+      border-radius: 50%;
+                z-index: 3;
+
+}
+.cloud1
+{
+    position: absolute;
+    height: 24.56852149963379px;
+        width: 83.31990051269531px;
+        left: 1036.0751953125px;
+        top: 377.8360290527344px;
+        border-radius: 0px;
+                    z-index: 3;
+    
+}
+.cloud2
+{
+    position: absolute;
+    height: 24.56850242614746px;
+        width: 83.31989288330078px;
+        left: 952.5843505859375px;
+        top: 413.7163848876953px;
+        border-radius: 0px;
+                    z-index: 3;
+}
+.cloud3{
+ position: absolute;
+height: 12.78314208984375px;
+    width: 43.39183807373047px;
+    left: 1039.7551879882812px;
+    top: 449.0980224609375px;
+    border-radius: 0px;
+                z-index: 3;
+}
+.crow1
+{
+    position: absolute;
+    height: 6.531363010406494px;
+        width: 10.939828872680664px;
+        left: 1001.4804077148438px;
+        top: 394.5081481933594px;
+        border-radius: 0px;
+                    z-index: 3;
+}
+.crow2
+{
+    position: absolute;
+    height: 6.53135347366333px;
+        width: 10.939811706542969px;
+        left: 1067.7210998535156px;
+        top: 419.34840393066406px;
+        border-radius: 0px;
+                    z-index: 3;
+}
+.crow3
+{
+    position: absolute;
+    height: 6.53135347366333px;
+        width: 10.939828872680664px;
+        left: 1011.1405639648438px;
+        top: 453.84877014160156px;
+        border-radius: 0px;
+                    z-index: 3;
+}
+.ellipse{
+    position: absolute;
+    height: 8.280085563659668px;
+        width: 77.2807846069336px;
+        left: 1000.7904052734375px;
+        top: 593.9728698730469px;
+        border-radius: 0px;
+                    z-index: 3;
+}
+.leaf1
+{
+    position: absolute;
+    height: 64.04474639892578px;
+        width: 99.80045318603516px;
+        left: 877.3291931152344px;
+        top: 414.38956451416016px;
+        border-radius: 0px;
+        z-index: 1;
+}
+.leaf2
+{
+    position: absolute;
+    height: 110.42955017089844px;
+        width: 65.08985137939453px;
+        left: 925.5941925048828px;
+        top: 413.84004974365234px;
+        border-radius: 0px;
+        z-index: 1;
+}
+.leafline
+{
+    position: absolute;
+    height: 64.14421844482422px;
+        width: 98.90990447998047px;
+        left: 876.8472900390625px;
+        top: 414.61791229248047px;
+        border-radius: 0px;
+                z-index: 1;
+
+}
+.leafline1
+{
+    position: absolute;
+    z-index: 1;
+    height: 6.505278587341309px;
+        width: 16.70077133178711px;
+        left: 893.9889221191406px;
+        top: 437.5022888183594px;
+        border-radius: 0px;
+}
+.leafline2
+{
+    position: absolute;
+        z-index: 1;
+    height: 16.93827247619629px;
+        width: 10.758902549743652px;
+        left: 927.0199890136719px;
+        top: 437.27305603027344px;
+        border-radius: 0px;
+}
+.leafline4{
+    position: absolute;
+        z-index: 1;
+        height: 7.990572929382324px;
+            width: 3.358445405960083px;
+            left: 888.8337097167969px;
+            top: 460.7945556640625px;
+            border-radius: 0px;
+}
+.leafline3{
+    position: absolute;
+        z-index: 1;
+        height: 110.36795806884766px;
+            width: 43.59822463989258px;
+            left: 934.8827209472656px;
+            top: 414.28489685058594px;
+            border-radius: 0px;
+}
+.leafline5{
+    position: absolute;
+        z-index: 1;
+        height: 7.680187225341797px;
+            width: 16.13144302368164px;
+            left: 926.1742248535156px;
+            top: 475.4365997314453px;
+            border-radius: 0px;
+}
+.leafline6{
+    position: absolute;
+        z-index: 1;
+        height: 5.248736381530762px;
+            width: 7.0020904541015625px;
+            left: 935.3699951171875px;
+            top: 502.88267517089844px;
+            border-radius: 0px;
+}
+.leafline{
+    position: absolute;
+        z-index: 1;
+}
+.head
+{
+    position: absolute;
+    height: 28.330951690673828px;
+        width: 30.509178161621094px;
+        left: 1266.0916748046875px;
+        top: 449.2316589355469px;
+        border-radius: 0px;
+
+}
+.face
+{
+    position: absolute;
+    height: 28.967166900634766px;
+        width: 28.967159271240234px;
+        left: 1263.7320556640625px;
+        top: 456.3759307861328px;
+        border-radius: 0px;
+}
+.shirt
+{
+        position: absolute;
+        height: 93.86056518554688px;
+            width: 65.60099029541016px;
+            left: 1249.6188354492188px;
+            top: 490.08387756347656px;
+            border-radius: 0px;
+}
+.leftshoulder
+{
+    position:absolute;
+    height: 30.432729721069336px;
+        width: 17.874454498291016px;
+        left: 1245.8021240234375px;
+        top: 504.26295471191406px;
+        border-radius: 0px;
+}
+.rightshoulder
+{
+    position: absolute;
+    height: 33.6842041015625px;
+        width: 17.46083641052246px;
+        left: 1304.62646484375px;
+        top: 502.8001251220703px;
+        border-radius: 0px;
+}
+.lefthand
+{
+    position: absolute;
+    height: 73.21672058105469px;
+        width: 20.198999404907227px;
+        left: 1241.6823120117188px;
+        top: 526.7566528320312px;
+        border-radius: 0px;
+}
+.righthand
+{
+    position: absolute;
+height: 65.815185546875px;
+    width: 19.103986740112305px;
+    left: 1304.1760864257812px;
+    top: 526.7479553222656px;
+    border-radius: 0px;
+}
+.short
+{
+    position: absolute;
+    height: 60.326419830322266px;
+        width: 61.085113525390625px;
+        left: 1249.6189575195312px;
+        top: 571.9277648925781px;
+        border-radius: 0px;
+}
+.leftleg
+{
+    position: absolute;
+    height: 84.65678405761719px;
+        width: 20.048749923706055px;
+        left: 1257.718017578125px;
+        top: 624.3912658691406px;
+        border-radius: 0px;
+}
+.rightleg
+{
+    position: absolute;
+    height: 83.33587646484375px;
+        width: 22.003488540649414px;
+        left: 1282.4390869140625px;
+        top: 623.5718994140625px;
+        border-radius: 0px;
+}
+.leftshoe
+{
+    position: absolute;
+    height: 10.165362358093262px;
+        width: 25.293277740478516px;
+        left: 1251.7269897460938px;
+        top: 704.1792907714844px;
+        border-radius: 0px;
+}
+.rightshoe
+{
+    position: absolute;
+    height: 13.915059089660645px;
+        width: 25.159900665283203px;
+        left: 1282.34423828125px;
+        top: 700.4295959472656px;
+        border-radius: 0px;
+}
+.land
+{
+    position: absolute;
+    height: 1.166336178779602px;
+        width: 223.35336303710938px;
+        left: 1156.326904296875px;
+        top: 714.2737121582031px;
+        border-radius: 0px;
+}
+
